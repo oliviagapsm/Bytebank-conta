@@ -11,7 +11,17 @@ public class TesteConta {
 
         cc.transfere(50.0, cp);
 
+
         System.out.println("CC: " + cc.getSaldo());
         System.out.println("CP: " + cp.getSaldo());
+
+        SeguroDeVida seguro = new SeguroDeVida();
+
+        CalculadorImposto cal = new CalculadorImposto();
+        cal.registra(cc);
+        cal.registra(seguro);
+
+        System.out.println(cal.getTotalImposto());
+
     }
 }
