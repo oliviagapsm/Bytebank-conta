@@ -3,6 +3,12 @@ package com.bytebank_conta;
 public class TesteConta {
     public static void main(String[] args) {
 
+        int a = 3;
+        int b = a / 0;
+
+        ContaCorrente outra = null;
+        outra.deposita(200.0);
+
         ContaCorrente cc = new ContaCorrente(555, 203);
         cc.deposita(100.0);
 
