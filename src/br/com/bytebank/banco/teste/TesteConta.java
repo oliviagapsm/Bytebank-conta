@@ -1,7 +1,9 @@
-package com.bytebank_conta;
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.*;
 
 public class TesteConta {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SaldoInsuficienteException {
 
         int a = 3;
         int b = a / 0;
