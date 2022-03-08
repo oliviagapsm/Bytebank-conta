@@ -23,4 +23,9 @@ public class ContaCorrente extends Conta implements Tributavel{
     public double getValorImposto() {
         return super.saldo * 2;
     }
+
+    @Override
+    public String toString() {
+        return "ContaCorrente " + super.toString();
+    }
 }
