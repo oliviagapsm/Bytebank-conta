@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.teste.util;
+package br.com.bytebank.banco.util;
 
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
@@ -15,8 +15,8 @@ public class TesteArrayListEquals {
 
 
 
-
-                ArrayList<Conta> lista = new ArrayList<Conta>();
+        //Generics
+        ArrayList<Conta> lista = new ArrayList<Conta>();
 
         Conta cc = new ContaCorrente(22, 11);
         lista.add(cc);
